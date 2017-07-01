@@ -573,7 +573,7 @@ ModelImporter:
     4300050: uwagi_BK
     4300052: shirts_sode_BK
     4300054: cheek
-    7400000: WAIT00
+    7400000: Idle
     9500000: //RootNode
     13700000: BLW_DEF
     13700002: button
@@ -609,7 +609,10 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Character1_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 0
@@ -620,7 +623,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: WAIT00
+      name: Idle
       takeName: Take 001
       firstFrame: 1
       lastFrame: 88

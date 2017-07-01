@@ -583,7 +583,7 @@ ModelImporter:
     4300050: uwagi_BK
     4300052: shirts_sode_BK
     4300054: cheek
-    7400000: RUN00_F
+    7400000: Run
     9500000: //RootNode
     13700000: button
     13700002: hair_accce
@@ -616,9 +616,14 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'Character1_Spine'
+      : rotation error = 4.259818 deg\n"
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Character1_Spine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 0
@@ -629,7 +634,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: RUN00_F
+      name: Run
       takeName: Take 001
       firstFrame: 1
       lastFrame: 25
