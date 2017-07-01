@@ -5,7 +5,7 @@ using UniRx;
 using UniRx.Triggers;
 
 
-namespace HC.AI
+namespace AI
 {
     /// <summary>
     /// ステートマシン

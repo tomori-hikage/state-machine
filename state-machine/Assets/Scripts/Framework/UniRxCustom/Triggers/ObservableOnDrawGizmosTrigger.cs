@@ -3,7 +3,7 @@ using UniRx;
 using UniRx.Triggers;
 
 
-namespace HC.UniRxCustom
+namespace UniRxCustom
 {
     [DisallowMultipleComponent]
     public class ObservableOnDrawGizmosTrigger : ObservableTriggerBase
