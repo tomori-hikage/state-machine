@@ -16,7 +16,7 @@ namespace HC
         /// <summary>
         /// アピールステートに遷移する時間
         /// </summary>
-        public const float TRANSITION_TO_APPEAL_DURATION = 5f;
+        public const float TRANSITION_TO_APPEAL_DURATION = 3f;
 
 
         [Header("Cache")]
