@@ -11,7 +11,7 @@ state-machine.unitypackageをプロジェクトにインポートしてくださ
 ```csharp
 using UnityEngine;
 using UniRx;
-using AI;
+using HC.AI;
 
 
 [DisallowMultipleComponent]
