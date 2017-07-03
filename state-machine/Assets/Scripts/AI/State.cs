@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UniRx;
 using UniRx.Triggers;
-using UniRxCustom;
+using HC.UniRxCustom;
 
 
 /*
@@ -27,7 +27,7 @@ using UniRxCustom;
  */
 
 
-namespace AI
+namespace HC.AI
 {
     /// <summary>
     /// ステートクラス

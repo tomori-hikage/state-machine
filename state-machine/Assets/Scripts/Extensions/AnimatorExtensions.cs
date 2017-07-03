@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace Extensions
+namespace HC.Extensions
 {
     public static class AnimatorExtensions
     {

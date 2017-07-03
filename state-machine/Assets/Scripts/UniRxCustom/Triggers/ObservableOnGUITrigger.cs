@@ -3,7 +3,7 @@ using UniRx;
 using UniRx.Triggers;
 
 
-namespace UniRxCustom
+namespace HC.UniRxCustom
 {
     [DisallowMultipleComponent]
     public class ObservableOnGUITrigger : ObservableTriggerBase
