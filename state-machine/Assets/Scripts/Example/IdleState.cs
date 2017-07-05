@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UniRx;
-using AI;
+using HC.AI;
 
 
 [DisallowMultipleComponent]

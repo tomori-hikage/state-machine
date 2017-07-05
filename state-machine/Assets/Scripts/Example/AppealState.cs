@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UniRx;
-using AI;
-using Extensions;
+using HC.AI;
+using HC.Extensions;
 
 
 [DisallowMultipleComponent]
@@ -33,7 +33,8 @@ public class AppealState : State
         BeginStream.Subscribe(_ => _animator.Play("Appeal"));
 
         // チュートリアルの文言を変更する
-        BeginStream.Subscribe(_ => _tutorialText.text = (int)IdleState.TRANSITION_TO_APPEAL_DURATION + "秒経過したのでアピールステートに遷移しました");
+        BeginStream.Subscribe(_ => _tutorialText.text =
+            (int)IdleState.TRANSITION_TO_APPEAL_DURATION + "秒経過したのでアピールステートに遷移しました");
 
         // アピールアニメーションの再生が完了したら待機ステートに遷移する
         UpdateStream.Where(_ => _animator.IsCompleted(Animator.StringToHash("Appeal")))

@@ -1,6 +1,6 @@
 # state-machine
 
-state-machineはUniRxでのステートマシンのAssetです
+state-machineはUniRxをベースにしたステートマシンのAssetです
 
 ## 導入方法
 
@@ -11,7 +11,7 @@ state-machine.unitypackageをプロジェクトにインポートしてくださ
 ```csharp
 using UnityEngine;
 using UniRx;
-using AI;
+using HC.AI;
 
 
 [DisallowMultipleComponent]

@@ -2,7 +2,7 @@
 using UniRx;
 
 
-namespace UniRxCustom
+namespace HC.UniRxCustom
 {
     public static class ObservableTriggerExtensions
     {
