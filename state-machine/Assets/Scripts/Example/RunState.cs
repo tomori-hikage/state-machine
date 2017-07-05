@@ -34,7 +34,7 @@ public class RunState : State
         // チュートリアルの文言を変更する
         BeginStream.Subscribe(_ => _tutorialText.text = "左クリックで待機ステートに遷移します");
 
-        // 右クリックされたら待機ステートに遷移する
+        // 左クリックされたら待機ステートに遷移する
         UpdateStream.Where(_ => Input.GetMouseButtonDown(0))
             .Subscribe(_ => Transition<IdleState>());
     }

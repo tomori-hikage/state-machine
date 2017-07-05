@@ -50,7 +50,7 @@ public class IdleState : State
             .Where(count => counter > TRANSITION_TO_APPEAL_DURATION)
             .Subscribe(_ => Transition<AppealState>());
 
-        // 右クリックされたら走行ステートに遷移する
+        // 左クリックされたら走行ステートに遷移する
         UpdateStream.Where(_ => Input.GetMouseButtonDown(0))
             .Subscribe(_ => Transition<RunState>());
 

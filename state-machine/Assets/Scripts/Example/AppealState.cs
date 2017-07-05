@@ -38,8 +38,8 @@ public class AppealState : State
         // アピールアニメーションの再生が完了したら待機ステートに遷移する
         UpdateStream.Where(_ => _animator.IsCompleted(Animator.StringToHash("Appeal")))
             .Subscribe(_ => Transition<IdleState>());
-
-        // 右クリックされたら走行ステートに遷移する
+        
+        // 左クリックされたら走行ステートに遷移する
         UpdateStream.Where(_ => Input.GetMouseButtonDown(0))
             .Subscribe(_ => Transition<RunState>());
     }
