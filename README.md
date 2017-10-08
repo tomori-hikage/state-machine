@@ -1,6 +1,6 @@
 # state-machine
 
-state-machineはUniRxをベースにしたステートマシンのAssetです
+state-machineはUniRxをベースにしたステートマシンです
 
 ## 導入方法
 
