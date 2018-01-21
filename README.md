@@ -8,7 +8,7 @@ state-machineはUniRxをベースにしたステートマシンです
 
 state-machine.unitypackageをプロジェクトにインポートしてください
 
-## Usage
+## Example
 
 ```csharp
 using UnityEngine;
