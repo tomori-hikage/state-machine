@@ -1,12 +1,14 @@
 # state-machine
 
+## Description
+
 state-machineはUniRxをベースにしたステートマシンです
 
-## 導入方法
+## Install
 
 state-machine.unitypackageをプロジェクトにインポートしてください
 
-## 使用方法
+## Usage
 
 ```csharp
 using UnityEngine;
@@ -34,11 +36,16 @@ public class Example : State
 }
 ```
 
-## 配布ライセンス
+## Author
 
-MIT / X11ライセンスで公開いたします
+Twitter: [@tomoriaki](https://twitter.com/tomoriaki)  
+Qiita: [@tomoriaki](https://qiita.com/tomoriaki)
 
-## 使用ライセンス
+## Distribution License
+
+[MIT](https://github.com/tomoriaki/state-machine/blob/master/LICENSE)
+
+## Use License
 
 state-machineはUniRxをベースに作成しています
 
