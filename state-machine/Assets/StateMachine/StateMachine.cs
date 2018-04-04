@@ -14,6 +14,8 @@ namespace HC.AI
     {
         #region variable
 
+        [SerializeField, Tooltip("Auto start FSM via Unity Start() function")]
+        public bool autoStart = true;
         /// <summary>
         /// ステートのマップ
         /// </summary>
@@ -54,6 +56,19 @@ namespace HC.AI
         private void Start()
         {
             // 最初のステートを開始
+            if (autoStart)
+            {
+                StartFSM();
+            }
+        }
+
+        public void StartFSM()
+        {
+            if (_currentState == null)
+            {
+                Debug.LogError("Plese assign Current State via Hierachy or call SetFirstState");
+            }
+
             _currentState.StateBegin();
 
             // 遷移先ステートが存在するならば遷移処理を行う
@@ -72,6 +87,12 @@ namespace HC.AI
                     _nextState = null;
                 });
         }
+
+        public void SetFirstState(State state)
+        {
+            _currentState = state;
+        }
+        
 
         #endregion
 
