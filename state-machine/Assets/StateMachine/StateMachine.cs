@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System;
 using System.Collections.Generic;
 using UniRx;
@@ -13,6 +13,9 @@ namespace HC.AI
     public class StateMachine : MonoBehaviour
     {
         #region variable
+
+        [SerializeField, Tooltip("Auto start FSM via Unity Start() function")]
+        public bool AutoStart = true;
 
         /// <summary>
         /// ステートのマップ
@@ -53,7 +56,26 @@ namespace HC.AI
 
         private void Start()
         {
-            // 最初のステートを開始
+            if (AutoStart)
+            {
+                StartFSM();
+            }
+        }
+
+        #endregion
+
+        #region method
+
+        /// <summary>
+        /// ステートマシンを開始する
+        /// </summary>
+        public void StartFSM()
+        {
+            if (_currentState == null)
+            {
+                Debug.LogError("Plese assign Current State via Hierachy or call SetFirstState");
+            }
+
             _currentState.StateBegin();
 
             // 遷移先ステートが存在するならば遷移処理を行う
@@ -73,9 +95,14 @@ namespace HC.AI
                 });
         }
 
-        #endregion
-
-        #region method
+        /// <summary>
+        /// 初期ステートの登録
+        /// </summary>
+        /// <param name="firstState">初期ステート</param>
+        public void SetFirstState(State firstState)
+        {
+            _currentState = firstState;
+        }
 
         /// <summary>
         /// ステートの登録
