@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System;
 using System.Collections.Generic;
 using UniRx;
@@ -15,7 +15,8 @@ namespace HC.AI
         #region variable
 
         [SerializeField, Tooltip("Auto start FSM via Unity Start() function")]
-        public bool autoStart = true;
+        public bool AutoStart = true;
+
         /// <summary>
         /// ステートのマップ
         /// </summary>
@@ -55,13 +56,19 @@ namespace HC.AI
 
         private void Start()
         {
-            // 最初のステートを開始
-            if (autoStart)
+            if (AutoStart)
             {
                 StartFSM();
             }
         }
 
+        #endregion
+
+        #region method
+
+        /// <summary>
+        /// ステートマシンを開始する
+        /// </summary>
         public void StartFSM()
         {
             if (_currentState == null)
@@ -88,15 +95,14 @@ namespace HC.AI
                 });
         }
 
-        public void SetFirstState(State state)
+        /// <summary>
+        /// 初期ステートの登録
+        /// </summary>
+        /// <param name="firstState">初期ステート</param>
+        public void SetFirstState(State firstState)
         {
-            _currentState = state;
+            _currentState = firstState;
         }
-        
-
-        #endregion
-
-        #region method
 
         /// <summary>
         /// ステートの登録
