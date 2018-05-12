@@ -46,6 +46,9 @@ Twitter: [@jinzo_631](https://twitter.com/jinzo_631)
 Twitter: [@tomoriaki](https://twitter.com/tomoriaki)  
 Qiita: [@tomoriaki](https://qiita.com/tomoriaki)
 
+- takaaptech  
+GitHub: [@takaaptech](https://github.com/takaaptech)
+
 ## Distribution License
 
 [MIT](https://github.com/tomoriaki/state-machine/blob/master/LICENSE)
