@@ -43,7 +43,7 @@ GitHub: [@JINZO631](https://github.com/JINZO631)
 Twitter: [@jinzo_631](https://twitter.com/jinzo_631)
 
 - 戸森  
-Twitter: [@tomoriaki](https://twitter.com/tomoriaki)  
+Twitter: [@tomoriaki](https://twitter.com/tomoriaki)  
 Qiita: [@tomoriaki](https://qiita.com/tomoriaki)
 
 ## Distribution License
