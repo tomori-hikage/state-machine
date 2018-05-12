@@ -38,7 +38,7 @@ public class Example : State
 
 ## Author
 
-Twitter: [@tomoriaki](https://twitter.com/tomoriaki)  
+Twitter: [@jinzo_631](https://twitter.com/jinzo_631) & [@tomoriaki](https://twitter.com/tomoriaki) 
 Qiita: [@tomoriaki](https://qiita.com/tomoriaki)
 
 ## Distribution License
