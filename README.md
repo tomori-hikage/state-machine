@@ -42,7 +42,7 @@ public class Example : State
 GitHub: [@JINZO631](https://github.com/JINZO631)  
 Twitter: [@jinzo_631](https://twitter.com/jinzo_631)
 
-- 戸森  
+- 戸森ひかげ  
 Twitter: [@tomori_hikage](https://twitter.com/tomori_hikage)  
 Qiita: [@tomori_hikage](https://qiita.com/tomori_hikage)
 
