@@ -43,15 +43,15 @@ GitHub: [@JINZO631](https://github.com/JINZO631)
 Twitter: [@jinzo_631](https://twitter.com/jinzo_631)
 
 - 戸森  
-Twitter: [@tomoriaki](https://twitter.com/tomoriaki)  
-Qiita: [@tomoriaki](https://qiita.com/tomoriaki)
+Twitter: [@tomori_hikage](https://twitter.com/tomori_hikage)  
+Qiita: [@tomori_hikage](https://qiita.com/tomori_hikage)
 
 - takaaptech  
 GitHub: [@takaaptech](https://github.com/takaaptech)
 
 ## Distribution License
 
-[MIT](https://github.com/tomoriaki/state-machine/blob/master/LICENSE)
+[MIT](https://github.com/tomori-hikage/state-machine/blob/master/LICENSE)
 
 ## Use License
 
