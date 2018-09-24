@@ -59,6 +59,5 @@ state-machineはUniRxをベースに作成しています
 
 [Copyright (c) 2014 Yoshifumi Kawai](https://github.com/neuecc/UniRx/blob/master/LICENSE)
 
-この作品はユニティちゃんライセンス条項の元に提供されています
 
-© Unity Technologies Japan/UCL
+[© Unity Technologies Japan/UCL](http://unity-chan.com/contents/license_jp/)
