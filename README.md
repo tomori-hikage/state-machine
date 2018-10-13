@@ -6,7 +6,7 @@ state-machineはUniRxをベースにしたステートマシンです
 
 ## Install
 
-[release](https://github.com/tomoriaki/state-machine/releases)からstate-machine.unitypackageをダウンロードしてプロジェクトにインポートしてください
+[releases](https://github.com/tomoriaki/state-machine/releases)からstate-machine.unitypackageをダウンロードしてプロジェクトにインポートしてください
 
 ## Example
 
