@@ -1,3 +1,8 @@
+[![license](https://img.shields.io/github/license/tomori-hikage/state-machine.svg?style=flat-square)](https://github.com/tomori-hikage/state-machine/blob/master/LICENSE)
+[![release](https://img.shields.io/github/release/tomori-hikage/state-machine.svg?style=flat-square)](https://github.com/tomori-hikage/state-machine/releases)
+[![GitHub](https://img.shields.io/github/followers/tomori-hikage.svg?label=GitHub&style=social)](https://github.com/tomori-hikage)
+[![Twitter](https://img.shields.io/twitter/follow/tomori_hikage.svg?label=Twitter&style=social)](https://twitter.com/tomori_hikage)
+
 # state-machine
 
 ## Description
@@ -49,10 +54,6 @@ Twitter: [@tomori_hikage](https://twitter.com/tomori_hikage)
 
 - takaaptech  
 GitHub: [@takaaptech](https://github.com/takaaptech)
-
-## Distribution License
-
-[MIT](https://github.com/tomori-hikage/state-machine/blob/master/LICENSE)
 
 ## Use License
 
