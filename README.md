@@ -47,11 +47,6 @@ public class Example : State
 GitHub: [@JINZO631](https://github.com/JINZO631)  
 Twitter: [@jinzo_631](https://twitter.com/jinzo_631)
 
-- 戸森ひかげ  
-GitHub: [tomori-hikage](https://github.com/tomori-hikage)  
-Qiita: [@tomori_hikage](https://qiita.com/tomori_hikage)  
-Twitter: [@tomori_hikage](https://twitter.com/tomori_hikage)
-
 - takaaptech  
 GitHub: [@takaaptech](https://github.com/takaaptech)
 
