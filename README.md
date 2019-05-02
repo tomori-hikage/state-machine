@@ -50,6 +50,9 @@ Twitter: [@jinzo_631](https://twitter.com/jinzo_631)
 - takaaptech  
 GitHub: [@takaaptech](https://github.com/takaaptech)
 
+- chorome  
+GitHub: [@chromee](https://github.com/chromee)  
+
 ## Use License
 
 state-machineはUniRxをベースに作成しています
