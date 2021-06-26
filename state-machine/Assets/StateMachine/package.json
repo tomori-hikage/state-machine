@@ -1,0 +1,13 @@
+{
+  "name": "com.tomori-hikage.state-machine",
+  "version": "1.1.1",
+  "displayName": "state-machine",
+  "description": "state-machine is a state machine based on UniRx",
+  "dependencies": {
+    "com.neuecc.unirx": "7.1.0"
+  },
+  "author": {
+    "name": "tomori-hikage",
+    "email": "tomori.hikage@gmail.com"
+  }
+}

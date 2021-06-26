@@ -11,7 +11,25 @@ state-machineはUniRxをベースにしたステートマシンです
 
 ## Install
 
-[releases](https://github.com/tomoriaki/state-machine/releases)からstate-machine.unitypackageをダウンロードしてプロジェクトにインポートしてください
+### UnityPackage
+
+[releases](https://github.com/tomoriaki/state-machine/releases) からstate-machine.unitypackageをダウンロードしてプロジェクトにインポートしてください
+
+### UPM Package
+
+<details>
+<summary>GitHubから追加</summary>
+
+Unity2019.4以上はGitHubから直接追加できます。この方法はPackage Managerから更新を受け取れないので手動で更新します。
+
+- Package Managerを開きます
+- <kbd>+</kbd>をクリックします
+- <kbd>Add from Git URL</kbd>を選択します
+- `https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts` を貼り付けます
+- <kbd>Add</kbd>をクリックします
+- `https://github.com/tomori-hikage/state-machine.git?path=state-machine/Assets/StateMachine` を貼り付けます
+- <kbd>Add</kbd>をクリックします
+</details>
 
 ## Example
 
